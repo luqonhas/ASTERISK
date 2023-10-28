@@ -88,8 +88,8 @@ namespace Asterisk.Infra.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("80bd60d0-a693-467c-9b94-835bf99191fd"),
-                            CreatedDate = new DateTime(2023, 10, 24, 0, 30, 58, 369, DateTimeKind.Local).AddTicks(8691),
+                            Id = new Guid("d1ed420e-674c-455d-9a52-16a46e752fd0"),
+                            CreatedDate = new DateTime(2023, 10, 27, 0, 28, 16, 337, DateTimeKind.Local).AddTicks(5873),
                             LineName = "Line 1",
                             MarginLeft = 1m,
                             MarginTop = 550m,
@@ -97,8 +97,8 @@ namespace Asterisk.Infra.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("efc8d64e-74ff-423c-b0d5-f96382829567"),
-                            CreatedDate = new DateTime(2023, 10, 24, 0, 30, 58, 369, DateTimeKind.Local).AddTicks(8726),
+                            Id = new Guid("3ae9f485-d10f-41bf-b11c-6438d164af3e"),
+                            CreatedDate = new DateTime(2023, 10, 27, 0, 28, 16, 337, DateTimeKind.Local).AddTicks(5926),
                             LineName = "Line 2",
                             MarginLeft = 1m,
                             MarginTop = 140m,

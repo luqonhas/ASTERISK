@@ -15,7 +15,7 @@ namespace Asterisk.Api.Controllers
     public class LinesController : ControllerBase
     {
         [HttpGet]
-        [Authorize(Roles = "Administrator")]
+        //[Authorize(Roles = "Administrator")]
         public GenericQueryResult GetAll([FromServices] ReadLinesHandle handle)
         {
             ReadLinesQuery query = new ReadLinesQuery();
