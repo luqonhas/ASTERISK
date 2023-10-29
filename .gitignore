@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 # .gitignore
 appsettings.Development.json
+node_modules/
